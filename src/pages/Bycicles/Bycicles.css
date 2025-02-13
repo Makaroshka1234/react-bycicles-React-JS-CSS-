@@ -35,12 +35,14 @@
     margin-bottom: 110px;
     flex-wrap: wrap;
     max-width: 1230px;
+    justify-content: center;
 
 }
 
 .bicycles__list-item {
     padding: 16px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    max-width: 270px;
 }
 
 .bicycles__item-img {
@@ -49,4 +51,12 @@
 
 .bicycle__price {
     font-weight: bold;
+}
+
+.bicycles__inner-box {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -651,3 +651,10 @@ p {
   font-weight: 500;
 
 }
+
+@media (max-width:1785px) {
+  .wrap {
+
+    padding: 0px 30px;
+  }
+}

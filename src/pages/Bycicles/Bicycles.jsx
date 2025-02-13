@@ -23,10 +23,13 @@ const Bicycles = () => {
             <div className="wrapper">
                 <Header />
                 <div className="container">
-                    <BicyclesProvider>
-                        <BicyclesNav />
-                        <BicyclesList />
-                    </BicyclesProvider>
+                    <div className="bicycles__inner-box">
+                        <BicyclesProvider>
+                            <BicyclesNav />
+                            <BicyclesList />
+                        </BicyclesProvider>
+                    </div>
+
                 </div>
 
 
