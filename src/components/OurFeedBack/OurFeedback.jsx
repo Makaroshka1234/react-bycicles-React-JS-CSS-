@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './OurFeedBack.css'
+
 const OurFeedback = () => {
     return (
         <>

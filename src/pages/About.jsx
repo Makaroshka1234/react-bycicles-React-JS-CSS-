@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
-import AboutSection from '../components/AboutSection'
-import ChooseBike from '../components/ChooseBike'
-import Footer from '../components/Footer'
-import MakeRide from '../components/MakeRide'
+import Header from '../components/Header/Header'
+import AboutSection from '../components/AboutSection/AboutSection'
+import ChooseBike from '../components/ChooseBike/ChooseBike'
+import Footer from '../components/Footer/Footer'
+import MakeRide from '../MakeRide/MakeRide'
 
 const About = () => {
     return (

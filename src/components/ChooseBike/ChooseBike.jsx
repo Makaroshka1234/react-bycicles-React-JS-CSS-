@@ -1,5 +1,9 @@
 import React from 'react'
 
+import './chooseBike.css'
+
+
+
 const ChooseBike = () => {
     return (
         <>

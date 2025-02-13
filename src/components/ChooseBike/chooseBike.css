@@ -1,0 +1,66 @@
+.choosebike {
+    padding: 100px 0;
+}
+
+.choosebike__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about_choosebike {}
+
+.chooosebike__title {
+    font-family: "Anton", serif;
+    line-height: 73px;
+    font-weight: 400;
+    font-size: 62px;
+    margin-bottom: 53px;
+    max-width: 196px;
+    text-transform: uppercase;
+    max-width: 270px;
+}
+
+.choosebike__list {
+    display: flex;
+    gap: 26px;
+}
+
+.choosebike__list-item {
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.choosebike__item-img {
+    margin-bottom: 42px;
+}
+
+.bike__title {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.bike__description {
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.choosebike__item-bottom {
+    display: flex;
+    gap: 42px;
+}
+
+.price__day {
+    font-size: 18px;
+}
+
+.rent__btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF285B;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+}

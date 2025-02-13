@@ -1,0 +1,36 @@
+.hello__title {
+    font-family: "Anton", serif;
+    line-height: 73px;
+    font-weight: 400;
+    font-size: 62px;
+    color: #D6DEE8;
+    margin-bottom: 53px;
+    max-width: 155px;
+    text-transform: uppercase;
+}
+
+
+.hello__discount {
+    max-width: 307px;
+    margin-bottom: 24px;
+    font-size: 14px;
+
+}
+
+.discount-span {
+    font-weight: 600;
+}
+
+
+
+
+
+.hello__btn {
+    padding: 13px 20px;
+    background-color: #FF285B;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}

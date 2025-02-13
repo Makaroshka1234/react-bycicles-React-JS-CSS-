@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
-import ChooseBike from '../../components/ChooseBike'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import ChooseBike from '../../components/ChooseBike/ChooseBike'
 import BicyclesNav from '../../components/BicyclesNav'
 import BicyclesList from '../../components/BicyclesList'
 import './Bycicles.css'
-import { BicyclesProvider } from '../../components/CategoryContext'
+import { BicyclesProvider } from '../../providers/CategoryContext'
 
 
 

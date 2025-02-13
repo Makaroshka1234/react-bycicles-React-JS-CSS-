@@ -1,0 +1,58 @@
+.about {
+    padding: 100px 0;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about__img {}
+
+.about__rent {}
+
+.about__title {
+    font-family: "Anton", serif;
+    line-height: 73px;
+    font-weight: 400;
+    font-size: 62px;
+    color: #353637;
+    margin-bottom: 53px;
+    max-width: 196px;
+    text-transform: uppercase;
+}
+
+
+.about__discount {
+    max-width: 307px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+.about__buttons {
+    display: flex;
+    gap: 11px;
+}
+
+.about-btn {
+    padding: 13px 20px;
+    background-color: #FF285B;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.subscribe-btn {
+    padding: 13px 20px;
+    background-color: transparent;
+    border: 2px solid #62656A;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #62656A;
+}

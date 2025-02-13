@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BicyclesContext } from './CategoryContext';
+import { BicyclesContext } from '../providers/CategoryContext';
 
 
 

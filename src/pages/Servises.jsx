@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import CostSection from '../components/CostSection'
-import OurFeedback from '../components/OurFeedback'
-import Trialem from '../components/Trialem'
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+import CostSection from '../components/CostSection/CostSection'
+import OurFeedback from '../components/OurFeedBack/OurFeedback'
+import Trialem from '../components/Trialem/Trialem'
 
 const Servises = () => {
     return (

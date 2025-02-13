@@ -1,5 +1,8 @@
 import React from 'react'
 
+import './makeride.css'
+
+
 const MakeRide = () => {
     return (
         <>

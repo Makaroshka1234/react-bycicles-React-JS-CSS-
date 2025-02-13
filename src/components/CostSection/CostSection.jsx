@@ -1,4 +1,6 @@
 import React from 'react'
+import './costSection.css'
+
 
 const CostSection = () => {
     return (

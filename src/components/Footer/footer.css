@@ -1,0 +1,91 @@
+.footer {
+    background-image: url(/public/images/footer-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.footer__inner {
+    padding: 65px 0;
+    color: #fff;
+}
+
+.footer__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 рівні колонки */
+    gap: 25px;
+    /* Відстань між елементами */
+}
+
+.footer__list-item {}
+
+.footer-logo {
+    margin-bottom: 34px;
+}
+
+.footer__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.footer__social-list {
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer__contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.footer__item-p {
+    margin-bottom: 30px;
+    max-width: 350px;
+}
+
+.contact__list-item {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.contact__item-title {
+    color: #FF285B;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contacts__page {
+    padding: 100px 0;
+}
+
+.contacts__page-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__page-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.page__list-item {
+    display: flex;
+    max-width: 390px;
+    gap: 30px;
+    align-items: top;
+
+}
+
+.item__text-title {
+    font-size: 20px;
+    font-weight: 500;
+
+}

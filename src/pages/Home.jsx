@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 
-import HeaderHello from "../components/HeaderHello";
-import AboutSection from "../components/AboutSection";
-import CostSection from "../components/CostSection";
-import ChooseBike from "../components/ChooseBike";
-import Trialem from "../components/Trialem";
-import OurFeedback from "../components/OurFeedback";
-import MakeRide from "../components/MakeRide";
-import Footer from "../components/Footer";
+import HeaderHello from "../components/HeaderHello/HeaderHello";
+import AboutSection from "../components/AboutSection/AboutSection";
+import CostSection from "../components/CostSection/CostSection";
+import ChooseBike from "../components/ChooseBike/ChooseBike";
+import Trialem from "../components/Trialem/Trialem";
+import OurFeedback from "../components/OurFeedBack/OurFeedback";
+import MakeRide from "../MakeRide/MakeRide";
+import Footer from "../components/Footer/Footer";
 
 
 export const Home = () => {

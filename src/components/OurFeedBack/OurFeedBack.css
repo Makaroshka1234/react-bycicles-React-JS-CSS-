@@ -1,0 +1,58 @@
+.feedback {
+    margin-bottom: 60px;
+}
+
+.feedback__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feedback__right {
+    display: flex;
+}
+
+.feedback__buttons {
+    display: flex;
+    gap: 11px;
+}
+
+.feedback__buttons button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.feedback__button-prev {}
+
+.feedback__button-next {}
+
+.feedback__list {
+    display: flex;
+    max-width: 867px;
+    gap: 28px;
+}
+
+.feedback__list-item {
+    background-color: #fff;
+
+    padding: 44px 40px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.feedback__bottom {
+    display: flex;
+    gap: 15px;
+}
+
+.feedback-p {
+    margin-bottom: 20px;
+}
+
+.feedback__user-name {}
+
+.feedback__user-profesion {
+    color: #62656A;
+}
+
+.feedback__img {}
+
+.feedback__bottom {}

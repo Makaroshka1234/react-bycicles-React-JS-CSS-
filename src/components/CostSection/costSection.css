@@ -1,0 +1,64 @@
+.cost {
+    background-color: #381C75;
+    margin-right: 70px;
+}
+
+.cost__inner {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 106px 0;
+}
+
+.cost__title {
+    font-family: "Anton", serif;
+    line-height: 73px;
+    font-weight: 400;
+    font-size: 62px;
+    color: #fff;
+    margin-bottom: 53px;
+    max-width: 196px;
+    text-transform: uppercase;
+}
+
+.cost__discount {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 21px;
+    margin-bottom: 28px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 75px;
+
+
+
+}
+
+.pricing-box {
+    max-width: 218px;
+}
+
+
+.pricing__ico {
+    margin-bottom: 16px;
+}
+
+.cost__data-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.pricing__box-desciption {
+    font-weight: lighter;
+    font-size: 14px;
+    color: #E2E8EE;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}

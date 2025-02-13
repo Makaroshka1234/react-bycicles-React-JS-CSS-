@@ -1,0 +1,76 @@
+.makeride {
+    background-color: #381C75;
+    margin-bottom: 167px;
+    margin-right: 70px;
+}
+
+
+
+.makeride__inner {}
+
+.wrapper__map {
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 100px 0;
+}
+
+.map__cont {
+    position: relative;
+}
+
+.map__cont iframe {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    right: 0;
+    width: 580px;
+    height: 580px;
+}
+
+.makeride__img {}
+
+.makeride__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+
+}
+
+.makeride__form-title {}
+
+.makeride__form-description {
+    max-width: 354px;
+}
+
+.makeride__form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form__box-input {
+    display: inline-block;
+    background-color: transparent;
+}
+
+.name-input,
+.phone-input,
+.mail-input {
+    padding: 18px 19px;
+    color: #fff;
+    /* Робимо однакові падінги */
+}
+
+.submit-input {
+    max-width: 150px;
+    background-color: #FF285B;
+    padding: 12px 20px;
+}
+
+.your__data-box {
+    display: flex;
+    gap: 14px;
+}
