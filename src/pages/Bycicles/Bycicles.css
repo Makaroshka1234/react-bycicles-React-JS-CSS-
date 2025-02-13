@@ -1,0 +1,52 @@
+.bicycles {
+    margin-bottom: 42px;
+}
+
+
+.bicycles__nav-list {
+    display: flex;
+    gap: 6px;
+
+}
+
+.bicycles__nav-item {
+    display: flex;
+    padding: 6px 10px;
+    gap: 5px;
+    border: 1px solid #3B3D42;
+    border-radius: 4px;
+    align-items: center;
+}
+
+
+
+.active {
+    background-color: rgba(255, 234, 239, 10);
+    border-color: #FF285B;
+}
+
+.bicycles__nav-item.active svg {
+    fill: aqua;
+}
+
+.bicycles__list {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 110px;
+    flex-wrap: wrap;
+    max-width: 1230px;
+
+}
+
+.bicycles__list-item {
+    padding: 16px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.bicycles__item-img {
+    max-width: 242px;
+}
+
+.bicycle__price {
+    font-weight: bold;
+}

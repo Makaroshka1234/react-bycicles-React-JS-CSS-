@@ -1,0 +1,75 @@
+
+import React from 'react'
+import '../App.css'
+import { NavLink, Link, useLocation } from "react-router";
+
+
+
+
+export const Header = () => {
+
+    const location = useLocation();
+
+    const pageClass = location.pathname === "/"
+        ? "header"
+        : "header " + location.pathname.replace("/", "") + "__header";
+
+    return (
+        <>
+            <header className={`header ${pageClass}`}>
+                <div className="container">
+                    <div className="header__top">
+                        <ul className="header__info-list">
+                            <li className="info__list-item">
+                                <img src="/images/location-ico.svg" alt="" className="info__item-img" />
+                                <a href="" className='info__item-link'>221 Beker St, Los Angeles, USA</a>
+                            </li>
+                            <li className="info__list-item">
+                                <img src="/images/phone-ico.svg" alt="" className="info__item-img" />
+                                <a href="" className='info__item-link'>800 1238 45 46</a>
+                            </li>
+                        </ul>
+                        <ul className="header__social-list">
+                            <li className="social__list-item">
+                                <img src="/images/facebook.svg" alt="facebook" href="#" />
+                            </li>
+                            <li className="social__list-item">
+                                <img src="/images/twitter.svg" alt="twitter" href="#" />
+                            </li>
+                            <li className="social__list-item">
+                                <img src="/images/instagram.svg" alt="instagram" href="#" />
+                            </li>
+                            <li className="social__list-item">
+                                <img src="/images/youtube.svg" alt="youtube" href="#" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="header__bottom">
+                        <img src="/images/logo.svg" alt="" className="header__logo" />
+                        <nav className="header__bottom-list">
+                            <li className="bottom__list-item">
+                                <Link Link to="/" className="bottom__list-link">HOME</Link>
+                            </li>
+                            <li className="bottom__list-item">
+                                <Link Link to="/about" className="bottom__list-link">ABOUT</Link>
+                            </li>
+                            <li className="bottom__list-item">
+                                <Link to="/bicycles" className="bottom__list-link">BICYCLES</Link></li>
+                            <li className="bottom__list-item">
+                                <Link Link to="/servises" className="bottom__list-link">SERVICES</Link>
+                            </li>
+                            <li className="bottom__list-item">
+                                <Link to="/contacts" className="bottom__list-link">CONTACTS</Link>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+
+            </header >
+
+        </>
+    )
+}
+
+
+export default Header
