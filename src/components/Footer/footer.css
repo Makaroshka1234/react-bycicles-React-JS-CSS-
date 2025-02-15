@@ -1,12 +1,18 @@
 .footer {
     background-image: url(/public/images/footer-bg.png);
     background-repeat: no-repeat;
-
+    background-position: center bottom;
+    background-size: 100%;
+    padding: 65px 0;
 }
 
 .footer__inner {
-    padding: 65px 0;
+
+    display: flex;
+
     color: #fff;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer__list {

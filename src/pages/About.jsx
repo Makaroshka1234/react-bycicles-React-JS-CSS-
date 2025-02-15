@@ -15,8 +15,7 @@ const About = () => {
                 <ChooseBike />
 
 
-                <MakeRide />
-                <Footer />
+
             </div>
 
         </>

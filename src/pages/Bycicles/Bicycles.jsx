@@ -20,21 +20,21 @@ const Bicycles = () => {
     return (
         <>
 
-            <div className="wrapper">
-                <Header />
-                <div className="container">
-                    <div className="bicycles__inner-box">
-                        <BicyclesProvider>
-                            <BicyclesNav />
-                            <BicyclesList />
-                        </BicyclesProvider>
-                    </div>
 
+            <Header />
+            <div className="container">
+                <div className="bicycles__inner-box">
+                    <BicyclesProvider>
+                        <BicyclesNav />
+                        <BicyclesList />
+                    </BicyclesProvider>
                 </div>
 
-
-                <Footer />
             </div>
+
+
+
+
 
 
         </>

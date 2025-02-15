@@ -23,6 +23,7 @@
     align-items: center;
     padding: 12px 0;
     border-bottom: 1px solid #62656A;
+    align-items: center;
 }
 
 .header__info-list {
@@ -68,4 +69,19 @@
 .header__hello {
     color: #fff;
     padding-bottom: 185px;
+}
+
+@media (max-width:584px) {
+    .header__top {
+        display: none;
+    }
+
+    .header {
+        margin-bottom: 0;
+    }
+
+    .header__bottom-list {
+        flex-direction: column;
+    }
+
 }

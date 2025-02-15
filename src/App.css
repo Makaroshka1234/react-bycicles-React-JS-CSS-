@@ -6,7 +6,10 @@
   margin: 0;
 }
 
-html {}
+html {
+  min-width: 100%;
+  overflow-x: hidden;
+}
 
 ul {
   margin: 0;
@@ -37,23 +40,19 @@ p {
 }
 
 .container {
-  max-width: 1770px;
+  min-width: 100%;
   margin: 0 auto;
 
 }
 
-.wrapper {
-  display: grid;
-  grid-template-rows: 1fr auto;
-  min-height: 100vh;
-  min-width: 100vw;
-}
+
 
 .wrap {
   background-image: url(/public/images/bg.png);
   padding: 0 10px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
+  min-height: 100vh;
 }
 
 .body {
@@ -73,9 +72,4 @@ p {
   margin-bottom: 27px;
 }
 
-@media (max-width:1785px) {
-  .wrap {
-    position: relative;
-
-  }
-}
+@media (max-width:584px) {}

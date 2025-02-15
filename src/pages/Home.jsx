@@ -14,23 +14,23 @@ import Footer from "../components/Footer/Footer";
 export const Home = () => {
     return (
         <>
-            <div className="wrapper">
 
 
-                <div className="wrap">
-                    <Header />
-                    <HeaderHello />
-                </div>
 
-                <AboutSection />
-                <CostSection />
-                <ChooseBike />
-                <Trialem />
-                {/* <OurFeedback />
-                <MakeRide />
-
-                <Footer /> */}
+            <div className="wrap">
+                <Header />
+                <HeaderHello />
             </div>
+
+            <AboutSection />
+            <CostSection />
+            <ChooseBike />
+            <Trialem />
+            <OurFeedback />
+            {/* <MakeRide /> */}
+
+            {/* <Footer /> */}
+
         </>
 
     )

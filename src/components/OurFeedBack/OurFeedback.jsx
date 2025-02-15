@@ -13,8 +13,7 @@ const OurFeedback = () => {
                         <div className="about_choosebike">
                             <span className='red__span'></span>
                             <h3 className="chooosebike__title">
-                                Choose
-                                you bike</h3>
+                                Our Feedback</h3>
                             <div className="feedback__buttons">
                                 <button className="feedback__button-prev"><img src="/images/prev-btn.svg" alt="" /></button>
                                 <button className="feedback__button-next"><img src="/images/next-btn.svg" alt="" /></button>

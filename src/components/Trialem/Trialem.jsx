@@ -8,6 +8,7 @@ const Trialem = () => {
             <section className="trialem">
                 <div className="container">
                     <div className="trialem__inner">
+                        {/* <img src="/images/black-bike-bg.png" alt="" className="trialem__bike-img" /> */}
                         <div className="trialem__text">
                             <div className="about__trialem">
                                 <span className='red__span'></span>

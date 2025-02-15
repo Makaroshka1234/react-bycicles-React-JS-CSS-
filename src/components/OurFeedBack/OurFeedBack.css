@@ -56,3 +56,23 @@
 .feedback__img {}
 
 .feedback__bottom {}
+
+@media(max-width:1086px) {
+    .feedback__inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:884px) {
+    .feedback__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback__list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
