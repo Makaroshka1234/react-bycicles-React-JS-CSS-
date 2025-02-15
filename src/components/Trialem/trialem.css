@@ -49,3 +49,11 @@
 .trialem-grid-item {
     display: inline;
 }
+
+@media (max-width:994px) {
+    .trialem {
+        background-size: 100% 90%;
+        margin-left: 0px;
+    }
+
+}

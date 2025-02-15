@@ -34,3 +34,14 @@
     text-transform: uppercase;
     color: #fff;
 }
+
+
+@media (max-width:714px) {
+    .header__hello {
+        display: flex;
+    }
+
+    .hello__title {
+        font-size: 42px;
+    }
+}

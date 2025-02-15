@@ -1,13 +1,19 @@
 .about {
     padding: 100px 0;
+    max-height: 100%;
 }
 
 .about__inner {
     display: flex;
-    justify-content: space-evenly;
+    gap: 100px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
-.about__img {}
+.about__img {
+    max-width: 599px;
+    max-height: 100%;
+}
 
 .about__rent {}
 
@@ -18,7 +24,7 @@
     font-size: 62px;
     color: #353637;
     margin-bottom: 53px;
-    max-width: 196px;
+
     text-transform: uppercase;
 }
 
@@ -55,4 +61,15 @@
     font-size: 14px;
     text-transform: uppercase;
     color: #62656A;
+}
+
+@media (max-width:1038px) {
+    .about__inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__title {}
+
 }

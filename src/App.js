@@ -17,17 +17,16 @@ function App() {
   const [searchValue, setSearchValue] = React.useState('')
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
 
-        <Route path='/bicycles' element={<Bicycles />} />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
 
-        <Route path='/contacts' element={<Contacts />} />
-        <Route path='/servises' element={<Servises />} />
-      </Routes>
-    </BrowserRouter>
+      <Route path='/bicycles' element={<Bicycles />} />
+
+      <Route path='/contacts' element={<Contacts />} />
+      <Route path='/servises' element={<Servises />} />
+    </Routes>
   );
 }
 

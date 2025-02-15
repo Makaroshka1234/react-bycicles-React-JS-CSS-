@@ -1,10 +1,12 @@
 .choosebike {
     padding: 100px 0;
+
 }
 
 .choosebike__inner {
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .about_choosebike {}
@@ -22,13 +24,16 @@
 
 .choosebike__list {
     display: flex;
-    gap: 26px;
+    gap: 15px;
+
 }
 
 .choosebike__list-item {
     background-color: #fff;
     padding: 16px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    max-width: 277px;
+
 }
 
 .choosebike__item-img {
@@ -39,6 +44,7 @@
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 3px;
+
 }
 
 .bike__description {
@@ -63,4 +69,19 @@
     text-transform: uppercase;
     background-color: transparent;
     cursor: pointer;
+}
+
+@media (max-width:1074px) {
+    .choosebike__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:886px) {
+    .choosebike__list {
+        flex-direction: column;
+    }
+
 }

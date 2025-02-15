@@ -26,10 +26,10 @@ export const Home = () => {
                 <CostSection />
                 <ChooseBike />
                 <Trialem />
-                <OurFeedback />
+                {/* <OurFeedback />
                 <MakeRide />
 
-                <Footer />
+                <Footer /> */}
             </div>
         </>
 
