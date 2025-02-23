@@ -3,11 +3,19 @@ import React from 'react'
 import './Header.css'
 import { NavLink, Link, useLocation } from "react-router";
 import HeaderHello from '../HeaderHello/HeaderHello';
+import Burger from './Burger';
+import NavList from './NavList';
+
+
+import { MenuProvider } from '../../providers/MenuProvider'
 
 
 
 
 export const Header = () => {
+
+
+
 
     const location = useLocation();
 
@@ -17,6 +25,7 @@ export const Header = () => {
 
     return (
         <>
+
             <header className={`header ${pageClass}`}>
                 <div className="container">
                     <div className="header__top">
@@ -46,23 +55,13 @@ export const Header = () => {
                         </ul>
                     </div>
                     <div className="header__bottom">
-                        <img src="/images/logo.svg" alt="" className="header__logo" />
-                        <nav className="header__bottom-list">
-                            <li className="bottom__list-item">
-                                <Link Link to="/" className="bottom__list-link">HOME</Link>
-                            </li>
-                            <li className="bottom__list-item">
-                                <Link Link to="/about" className="bottom__list-link">ABOUT</Link>
-                            </li>
-                            <li className="bottom__list-item">
-                                <Link to="/bicycles" className="bottom__list-link">BICYCLES</Link></li>
-                            <li className="bottom__list-item">
-                                <Link Link to="/servises" className="bottom__list-link">SERVICES</Link>
-                            </li>
-                            <li className="bottom__list-item">
-                                <Link to="/contacts" className="bottom__list-link">CONTACTS</Link>
-                            </li>
-                        </nav>
+                        <Link link to='/'><img src="/images/logo.svg" alt="" className="header__logo" /></Link>
+
+                        <MenuProvider>
+
+                            <NavList />
+                            <Burger />
+                        </MenuProvider>
                     </div>
                 </div>
 

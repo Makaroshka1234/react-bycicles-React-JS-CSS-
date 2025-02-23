@@ -4,7 +4,23 @@
 
 }
 
+.menu {
+    display: none;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    right: 0;
+}
 
+.menu span {
+    border-radius: 5px;
+    width: 40px;
+    height: 5px;
+    background-color: floralwhite;
+}
 
 .header.about__header,
 .header.bicycles__header,
@@ -58,6 +74,7 @@
 .header__bottom-list {
     display: flex;
     gap: 32px;
+
 }
 
 .bottom__list-link:hover {
@@ -71,17 +88,32 @@
     padding-bottom: 185px;
 }
 
-@media (max-width:584px) {
-    .header__top {
-        display: none;
-    }
+.header__bottom-list.active {
+    transform: translateX(0);
+}
 
+@media (max-width:1700px) {
     .header {
-        margin-bottom: 0;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:690px) {
+    .menu {
+        display: flex;
     }
 
     .header__bottom-list {
         flex-direction: column;
+        background-color: aqua;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-100%);
+        transition: all ease 0.3s;
     }
-
 }
