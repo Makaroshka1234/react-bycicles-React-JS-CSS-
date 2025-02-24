@@ -75,6 +75,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        gap: 38px;
     }
 
 }

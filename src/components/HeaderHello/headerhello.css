@@ -33,15 +33,19 @@
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
+    max-width: 200px;
 }
 
 
 @media (max-width:714px) {
     .header__hello {
         display: flex;
+
+        padding: 0 20px 100px 20px;
     }
 
     .hello__title {
-        font-size: 42px;
+        font-size: 3em;
+        margin-bottom: 28px;
     }
 }

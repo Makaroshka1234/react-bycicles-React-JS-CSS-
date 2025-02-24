@@ -6,10 +6,7 @@
   margin: 0;
 }
 
-html {
-  min-width: 100%;
-  overflow-x: hidden;
-}
+html {}
 
 ul {
   margin: 0;
@@ -42,6 +39,7 @@ p {
 .container {
   min-width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 
 }
 
@@ -49,14 +47,18 @@ p {
 
 .wrap {
   background-image: url(/public/images/bg.png);
+  padding: 0 10px;
 
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: cover;
+
+
 
 }
 
 .body {
-  position: relative;
+
   font-family: "Roboto", serif;
   color: inherit;
   min-height: 100vh;

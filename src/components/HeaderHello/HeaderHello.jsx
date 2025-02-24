@@ -12,8 +12,9 @@ const HeaderHello = () => {
                             cheaply</h3>
                         <p className="hello__discount">Book a bike for hire at a low price and get the next
                             rental with a <span className='discount-span'>25% discount!</span></p>
+                        <button className="hello__btn">rental bike</button>
                     </div>
-                    <button className="hello__btn">rental bike</button>
+
                 </div>
 
             </section>

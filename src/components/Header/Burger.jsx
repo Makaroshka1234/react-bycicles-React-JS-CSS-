@@ -8,7 +8,7 @@ const Burger = () => {
 
 
     return (
-        <div className='menu' onClick={() => setIsOpen(!isOpen)}>
+        <div className={`menu ${isOpen ? 'active' : ''} `} onClick={() => setIsOpen(!isOpen)}>
 
 
             <span></span>

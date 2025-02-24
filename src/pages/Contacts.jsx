@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer'
 const Contacts = () => {
     return (
         <div>
-            <div className="wrapper">
+            {/* <div className="wrapper">
                 <Header />
                 <section className="contacts__page">
                     <div className="container">
@@ -45,7 +45,7 @@ const Contacts = () => {
                 </section>
 
                 <Footer />
-            </div>
+            </div> */}
 
         </div>
     )

@@ -15,7 +15,9 @@
     max-height: 100%;
 }
 
-.about__rent {}
+.about__rent {
+    padding: 0 10px;
+}
 
 .about__title {
     font-family: "Anton", serif;

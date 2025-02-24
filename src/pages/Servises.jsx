@@ -14,7 +14,7 @@ const Servises = () => {
                 <CostSection />
                 <Trialem />
                 <OurFeedback />
-                <Footer />
+                {/* <Footer /> */}
             </div>
 
         </div>
