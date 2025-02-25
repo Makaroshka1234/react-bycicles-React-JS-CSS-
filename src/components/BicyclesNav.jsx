@@ -12,7 +12,7 @@ const BicyclesNav = () => {
 
     const { selectedCategory, setSelectedCategory } = useContext(BicyclesContext);
 
-    console.log(selectedCategory);
+
 
 
 

@@ -66,7 +66,32 @@ p {
 }
 
 
+.pagination {
+  display: flex;
+  gap: 5px;
+}
 
+.pagination li {
+  border: 1px solid #3B3D42;
+  border-radius: 50%;
+}
+
+.pagination li:hover {
+  background-color: #3B3D42;
+  color: #fff;
+}
+
+.pagination li a {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  background-color: #3B3D42;
+  color: #fff;
+}
 
 .red__span {
   display: inline-block;

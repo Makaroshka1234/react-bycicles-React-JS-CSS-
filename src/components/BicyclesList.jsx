@@ -1,41 +1,12 @@
 import React from 'react'
 import { BicyclesContext } from '../providers/CategoryContext';
-
-
-
-
+import MyLoader from '../BycicleSkelet/Bycicle';
 
 
 
 const BicyclesList = () => {
 
-    const { selectedCategory } = React.useContext(BicyclesContext);
-
-    console.log(selectedCategory);
-
-    const [items, setItems] = React.useState([])
-
-
-
-
-    React.useEffect(() => {
-
-        const bikeType = selectedCategory > 0 ? `type=${selectedCategory}` : '';
-
-
-        fetch(`https://67ae08829e85da2f020c28f9.mockapi.io/bicycle?${bikeType}`)
-            .then((response) => {
-                return response.json()
-            })
-            .then((arrItems) => (
-                setItems(arrItems)
-
-
-
-            ))
-    }, [selectedCategory])
-
-
+    const { selectedCategory, isLoading, setIsLoading, items } = React.useContext(BicyclesContext);
 
     return (
 
@@ -44,8 +15,14 @@ const BicyclesList = () => {
             {console.log(items)}
             <ul className="bicycles__list">
                 {
-                    Array.isArray(items) && items.map((item, index) => (
-                        <li className="bicycles__list-item">
+                    isLoading ? [...Array(4)].map((_, index) => (
+                        <li key={index} className="bicycles__list-item">
+                            <MyLoader />
+                        </li>
+                    )) : items.map((item, index) => (
+
+
+                        <li key={index} className="bicycles__list-item">
                             <img src={item.img} alt="" className="bicycles__item-img" />
                             <h2 className="bike__title">{item.title}</h2>
                             <p className="bike__description">Exclusive choise</p>
